@@ -42,15 +42,13 @@ a.nav-menu {
 a.nav-menu:hover {
     color: var(--primary-color);
 }
-
 h1 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 800;
     color: var(--text-dark);
 }
 a.btn {
     font-size: 16px;
-    text-transform: uppercase;
     color: var(--white-color);
     background-color: var(--primary-color);
     padding: 0.75rem 1.5rem;
@@ -63,9 +61,9 @@ a.btn:hover,span.star{
 .bus {
     position: absolute;
     bottom: -131px;
-    left: 607px;
-    top: 124px;
-    width: 592px;
+    left: 582px;
+    top: 129px;
+    width:617px;
 }
 .travel {
     background-image: url(..//image/img1.jpg);
@@ -74,18 +72,20 @@ a.btn:hover,span.star{
     background-size: cover;
     height: 500px;
     margin-top: 20px;
-    border-radius: 40px;
-    padding-bottom: 6rem;
+    border-radius: 3rem;
+    padding-bottom: -1rem;
     padding-left: 3rem;
-    padding-top:9rem;
+    padding-top:8rem;
 }
 p.journey {
     text-transform: uppercase;
     color: var(--text-dark);
     padding: 0 !important;
     margin-left: 35px !important;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 16px;
 }
-
 h1.travel-head, h2 {
     font-size: 4.5rem;
     font-weight: 600;
@@ -100,6 +100,18 @@ h2 {
 a.btn {
     margin-left: 27px;
 }
+a.play {
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    padding: 9px 13px;
+    border-radius: 50%;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+a.play:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
 h1.about-head, h1.about-headd {
     font-size: 2.5rem;
     font-weight: 700;
@@ -107,14 +119,15 @@ h1.about-head, h1.about-headd {
     margin-bottom: 0;
 }
 h1.about-headd {
-    width: 90%;
+    width: 91%;
     padding-left: 3rem;
 }
 p {
     color: var(--text-light);
     margin-top: 0;
-    padding-bottom: 3rem;
-
+    padding-bottom: 16px;
+    width: 97%;
+    padding-top:4px;
 }
 .temp {
     padding-left: 20px;
@@ -139,6 +152,7 @@ section.about-section {
     grid-template-columns: auto auto auto;
     justify-content: center;
     gap: 35px;
+    margin-top:3rem;
 }
 h4.about-cont {
     padding-left: 0;
@@ -164,10 +178,14 @@ span.star {
     text-align: center;
 }
 .tour-content {
-    background-color: var(--extra-light);
     padding-top: 2rem;
     padding-bottom: 20px;
-    border-radius: 0px 10px 0px 10px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom:32px;
+}
+section.package-section {
+    margin-top: 8rem;
 }
 .advent {
     display: grid;
@@ -179,11 +197,8 @@ span.star {
 section.Tour-section {
     margin-top: 9rem;
 }
-section.package-section {
-    margin-top: 10rem;
-}
 img.bus-ride {
-    width: 400px;
+    width: 350px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 .world {
@@ -194,13 +209,13 @@ img.bus-ride {
 .book-btm {
     background-image: url(..//image/img10.jpeg);
     background-size: cover;
-    height: 80px;
+    height: 60px;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius:5px;
-    margin-top:-1rem;
+    border-radius: 5px;
+    margin-top: 31px;
 }
 a.bus-now {
     color: var(--text-dark);
@@ -208,20 +223,22 @@ a.bus-now {
 }
 h1.about-headin {
     font-size: 3rem;
+    font-weight:600;
 }
 h4.years {
     color: var(--primary-color);
     font-size: 5rem;
-    margin-block: 15px;
     font-weight: 500;
     margin-bottom: 0;
-    padding-top:12px;
+    margin-top: 0;
+    margin-right:20px;
+    padding-top:0;
 }
 .cards {
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 6rem;
-    gap: 38px;
+    gap: 30px;
     text-align: center;
 }
 section.travel-section {
@@ -232,8 +249,15 @@ section.travel-section {
     background-color: var(--extra-light);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
     border-radius: 2rem;
+    padding-top:34px;
 }
-
+.coast {
+    background-color: rgba(40, 135, 255, 0.1);
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: var(--primary-color);
+    margin-top: 2rem;
+}
 .coastal {
     display: grid;
     grid-template-columns:32% 32% 32%;
@@ -246,6 +270,7 @@ h4.historic {
     font-weight: 700;
     color: var(--text-dark);
     padding-right: 20px;
+    padding-top:0;
 }
 .landmark {
     display: flex;
@@ -255,16 +280,26 @@ h4.historic {
 }
 .landmark:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius:16px;
 }
-p.travell {
+p.travell, p.travellss {
     color: var(--text-dark);
-    width: 79%;
+    width: 91%;
+    padding-bottom: 26px;
+}
+p.travellss {
+    width: 87%;
+    padding-bottom:5px;
 }
 h4 {
     font-size: 20px;
     font-weight: 600;
     padding-left: 20px;
     padding-top: 3rem;
+}
+h4.click {
+    color: var(--white-color);
+    padding-top: 0;
 }
 .contact {
     background-color: var(--extra-light);
@@ -291,19 +326,16 @@ a.menu-icon {
     background-color: var(--primary-color);
     color: var(--white-color);
 }
-p.parra {
-    padding-bottom: 12px;
-}
 .con-menu {
     display: flex;
-    gap: 11px;
+    gap: 14px;
+    margin-top:15px;
 }
 a.menu-icon {
     background-color: var(--primary-color);
     color: var(--white-color);
     border-radius: 50px;
-    padding: 10px;
-    font-size: 1.25rem;
+    padding: 12px 12px;
 }
 
 a.menu-icon:hover,a.menu-icns:hover{
@@ -323,8 +355,9 @@ input#email {
     color: var(--text-dark);
     margin-bottom: 25px;
     padding-block: 13px;
-    width: 274px;
+    width: 293px;
     padding-left:10px;
+    font-size:16px;
 }
 input#email::placeholder {
     font-size: 16px;
@@ -332,11 +365,14 @@ input#email::placeholder {
 .foott {
     padding-left: 6rem;
 }
+.foots {
+    padding-left: 3rem;
+}
 a.menu-icns {
     background-color: var(--primary-color);
     color: var(--white-color);
     border-radius: 5px;
-    padding-inline: 6.4rem;
+    padding-inline: 6.9rem;
     padding-block: 11px;
 }
 section.card-section {
@@ -346,22 +382,22 @@ section.card-section {
     background-color: var(--primary-color);
     width: 100%;
     padding-top: 20px;
-    display:none;
-}
-.book {
-    background-color: var(--primary-color);
-    width: 100%;
-    padding-top: 20px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    opacity:0;
+    position:absolute;
+    width:100%;
+    padding:10px;
 }
 p.travells {
-    width: 82%;
+    width: 83%;
     color: var(--text-dark);
-    padding-left:20px;
+    padding-left: 20px;
 }
 h4.click {
     color: var(--white-color);
+    padding-bottom: 0;
+    margin-bottom: 14px;
 }
 h4.about-cont {
     padding-left: 0;
@@ -375,6 +411,9 @@ span.right {
     width: 93%;
     padding-left: 20px;
 }
+.right {
+    cursor: pointer;
+}
 p.foot-para {
     padding-top: 1.5rem;
     margin-bottom: 0;
@@ -384,10 +423,44 @@ p.foot-para {
 }
 .copy-right {
     text-align: center;
-    padding-top:5rem;
+    padding-top:6rem;
 }
 span.number {
     padding-left: 12px;
+}
+.icnn {
+    padding-left: 2rem;
+    color: var(--primary-color);
+    font-size: 25px;
+    padding-top: 24px;
+}
+.icnns {
+    padding-left: 24px;
+    color: var(--white-color);
+    padding-top:32px;
+}
+.tour-content:hover .book {
+    display: block;
+    transform: translateY(-240px);
+    transition: 0.3s;
+    opacity: 1;
+}
+.advents {
+    background-color: var(--extra-light);
+    padding-bottom: 3px;
+    padding-top: 16px;
+    border-radius:0px 10px 0px 10px;
+}
+h1.foot-head {
+    font-size: 1.75rem;
+}
+span.book-icn {
+    border: 1px solid var(--white-color);
+    border-radius: 50%;
+    padding: 10px;
+}
+.tour-content:hover {
+    border-radius: 0px 0px 20px 20px;
 }
 :root{
     --text-dark:#0a0a0a;
