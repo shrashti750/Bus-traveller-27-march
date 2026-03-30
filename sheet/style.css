@@ -182,7 +182,8 @@ span.star {
     padding-bottom: 20px;
     position: relative;
     overflow: hidden;
-    padding-bottom:32px;
+    transition:0.3s ease-in;
+    padding-bottom:10px;
 }
 section.package-section {
     margin-top: 8rem;
@@ -365,7 +366,7 @@ input#email::placeholder {
     font-size: 16px;
 }
 .foott {
-    padding-left: 6rem;
+    padding-left: 8rem;
 }
 .foots {
     padding-left: 3rem;
@@ -390,6 +391,7 @@ section.card-section {
     position:absolute;
     width:100%;
     padding:10px;
+    transition:0.3s ease-in;
 }
 p.travells {
     width: 83%;
