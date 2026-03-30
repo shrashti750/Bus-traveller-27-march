@@ -271,6 +271,7 @@ h4.historic {
     color: var(--text-dark);
     padding-right: 20px;
     padding-top:0;
+    margin-bottom:11px;
 }
 .landmark {
     display: flex;
