@@ -256,12 +256,13 @@ section.travel-section {
     padding: 10px 10px;
     border-radius: 50%;
     color: var(--primary-color);
-    margin-top: 2rem;
+    margin-top: 16px;
 }
 .coastal {
     display: grid;
     grid-template-columns:32% 32% 32%;
     gap: 37px;
+    margin-top:3rem;
 }
 h4.historic {
     font-size: 19px;
