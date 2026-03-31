@@ -50,7 +50,7 @@ h1 {
     font-weight: 800;
     color: var(--text-dark);
 }
-a.btn {
+a.btn,a.btn-book{
     font-size: 16px;
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -58,7 +58,11 @@ a.btn {
     border-radius: 50px;
     transition: 0.3s;
 }
-a.btn:hover,span.star{
+a.btn-book {
+    padding-block: 10px;
+    padding-inline: 28px;
+}
+a.btn:hover,span.star,a.btn-book:hover{
     background-color:var(--primary-dark);
 }
 .bus {
