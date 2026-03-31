@@ -6,12 +6,15 @@ body{
 .container {
     width: 100%;
     margin: 0 auto;
-    max-width: 1176px;
+    max-width: 1169px;
 }
 .container1 {
     width: 100%;
     margin: 0 auto;
     max-width: 1315px;
+}
+.logo {
+    padding-left: 8px;
 }
 li{
     list-style-type:none;
@@ -51,9 +54,9 @@ a.btn {
     font-size: 16px;
     color: var(--white-color);
     background-color: var(--primary-color);
-    padding: 0.75rem 1.5rem;
+    padding: 0.99rem 1.9rem;
     border-radius: 50px;
-    transition:0.3s;
+    transition: 0.3s;
 }
 a.btn:hover,span.star{
     background-color:var(--primary-dark);
@@ -122,12 +125,15 @@ h1.about-headd {
     width: 91%;
     padding-left: 3rem;
 }
+span.star-num {
+    padding-right: 5px;
+}
 p {
     color: var(--text-light);
     margin-top: 0;
     padding-bottom: 16px;
     width: 97%;
-    padding-top:4px;
+    padding-top: 0;
 }
 .temp {
     padding-left: 20px;
@@ -136,20 +142,20 @@ section.about-section {
     margin-top: 5rem;
 }
 .temple {
-    width: 378px;
+    width: 100%;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
     border-radius: 1.5rem;
 }
 .stars {
     min-width: 20%;
-    margin-top: 36px;
+    margin-top: 3rem;
 }
 .city {
     display: flex;
 }
 .about-content {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns:31% 31% 31%;
     justify-content: center;
     gap: 35px;
     margin-top:3rem;
@@ -164,7 +170,8 @@ h3 {
     width: 80%;
     color: var(--text-dark);
     padding-bottom: 0;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
+    width: 95%;
 }
 span.star {
     background-color: var(--primary-color);
@@ -187,13 +194,13 @@ span.star {
     padding-bottom:10px;
 }
 section.package-section {
-    margin-top: 8rem;
+    margin-top: 9rem;
 }
 .advent {
     display: grid;
     grid-template-columns: 32% 32% 32%;
     gap: 19px;
-    margin-top:3rem;
+    margin-top:4rem;
 }
 
 section.Tour-section {
@@ -291,17 +298,16 @@ p.travell, p.travellss {
     width: 91%;
     padding-bottom: 26px;
 }
-p.travellss {
-    width: 87%;
-    padding-bottom:5px;
-}
 h4 {
     font-size: 20px;
     font-weight: 600;
     padding-left: 20px;
     padding-top: 3rem;
 }
-h4.click {
+h4.process {
+    padding-left: 35px;
+}
+h4.click,h4.clicked{
     color: var(--white-color);
     padding-top: 0;
 }
@@ -394,8 +400,11 @@ section.card-section {
     padding:10px;
     transition:0.3s ease-in;
 }
+.book-inn {
+    padding-bottom:3px;
+}
 p.travells {
-    width: 83%;
+    width: 85%;
     color: var(--text-dark);
     padding-left: 20px;
 }
