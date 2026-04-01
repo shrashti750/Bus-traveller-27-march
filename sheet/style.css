@@ -136,8 +136,8 @@ p {
     color: var(--text-light);
     margin-top: 0;
     padding-bottom: 16px;
-    width: 97%;
-    padding-top: 0;
+    width: 98%;
+    padding-top: 1px;
 }
 .temp {
     padding-left: 20px;
@@ -152,14 +152,14 @@ section.about-section {
 }
 .stars {
     min-width: 20%;
-    margin-top: 3rem;
+    margin-top: 2.8rem;
 }
 .city {
     display: flex;
 }
 .about-content {
     display: grid;
-    grid-template-columns:31% 31% 31%;
+    grid-template-columns:31.2% 31.2% 31.2%;
     justify-content: center;
     gap: 35px;
     margin-top:3rem;
@@ -190,7 +190,7 @@ span.star {
     margin-bottom: -29px;
 }
 .tour-content {
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-bottom: 20px;
     position: relative;
     overflow: hidden;
@@ -204,9 +204,11 @@ section.package-section {
     display: grid;
     grid-template-columns: 32% 32% 32%;
     gap: 19px;
-    margin-top:4rem;
+    margin-top:3rem;
 }
-
+h4.clicked {
+    width: 50%;
+}
 section.Tour-section {
     margin-top: 9rem;
 }
@@ -255,7 +257,7 @@ h4.years {
     text-align: center;
 }
 section.travel-section {
-    margin-top: 9rem;
+    margin-top: 10rem;
     text-align: center;
 }
 .rating {
@@ -286,12 +288,14 @@ h4.historic {
     padding-right: 20px;
     padding-top:0;
     margin-bottom:11px;
+    margin-top:16px;
 }
 .landmark {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition:0.3s;
 }
 .landmark:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
@@ -299,8 +303,11 @@ h4.historic {
 }
 p.travell, p.travellss {
     color: var(--text-dark);
-    width: 91%;
-    padding-bottom: 26px;
+    width: 90%;
+    padding-bottom: 14px;
+}
+p.travell {
+    padding-bottom: 30px;
 }
 h4 {
     font-size: 20px;
@@ -314,6 +321,7 @@ h4.process {
 h4.click,h4.clicked{
     color: var(--white-color);
     padding-top: 0;
+    margin-bottom:11px;
 }
 .contact {
     background-color: var(--extra-light);
@@ -323,7 +331,7 @@ h4.click,h4.clicked{
 ul.contact-menu {
     display: block;
     padding-left: 0;
-    line-height: 2.67;
+    line-height: 2.50;
 }
 .contact-foot {
     display: grid;
@@ -349,9 +357,9 @@ a.menu-icon {
     background-color: var(--primary-color);
     color: var(--white-color);
     border-radius: 50px;
-    padding: 12px 12px;
+    font-size: 18px;
+    padding: 9px 8px;
 }
-
 a.menu-icon:hover,a.menu-icns:hover{
     background-color: var(--primary-dark);
 }
@@ -390,19 +398,19 @@ a.menu-icns {
     padding-block: 11px;
 }
 section.card-section {
-    margin-top: 9rem;
+    margin-top: 10rem;
 }
 .book {
     background-color: var(--primary-color);
     width: 100%;
     padding-top: 20px;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
     opacity:0;
     position:absolute;
     width:100%;
     padding:10px;
     transition:0.3s ease-in;
+    top:212px;
+    padding-top:5rem;
 }
 .book-inn {
     padding-bottom:3px;
@@ -433,8 +441,9 @@ span.right {
     cursor: pointer;
 }
 p.foot-para {
-    padding-top: 1.5rem;
+    padding-top: 1.2rem;
     margin-bottom: 0;
+    width:100%;
 }
 .icnn {
     padding-left: 2rem;
@@ -455,12 +464,10 @@ span.number {
 .icnns {
     padding-left: 24px;
     color: var(--white-color);
-    padding-top:32px;
+    padding-left: 18px;
 }
 .tour-content:hover .book {
-    display: block;
     transform: translateY(-240px);
-    transition: 0.3s;
     opacity: 1;
 }
 .advents {
@@ -471,6 +478,7 @@ span.number {
 }
 h1.foot-head {
     font-size: 1.75rem;
+    padding-top: 10px;
 }
 span.book-icn {
     border: 1px solid var(--white-color);
