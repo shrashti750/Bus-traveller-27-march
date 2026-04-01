@@ -23,7 +23,7 @@ a{
     text-decoration:none;
 }
 header {
-    padding-top: 16px;
+    padding-top: 20px;
     padding-bottom: 1px;
 }
 .menu {
@@ -33,13 +33,16 @@ header {
 }
 ul {
     display: flex;
-    gap: 34px;
+    padding: 0;
+    gap: 23px;
 }
 a.nav-menu {
     color: var(--text-dark);
     font-weight: 600;
     text-transform: uppercase;
     transition: 0.3s;
+    display:block;
+    padding-right:14px;
 }
 
 a.nav-menu:hover {
@@ -110,10 +113,11 @@ a.btn {
 a.play {
     color: var(--primary-color);
     background-color: var(--white-color);
-    padding: 9px 13px;
+    padding: 11px 13px;
     border-radius: 50%;
     margin-left: 15px;
     transition: 0.3s;
+    font-size: 13px;
 }
 a.play:hover {
     background-color: var(--primary-color);
@@ -213,13 +217,13 @@ section.Tour-section {
     margin-top: 9rem;
 }
 img.bus-ride {
-    width: 350px;
+    width:100%;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 .world {
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 35px;
+    gap: 30px;
+    grid-template-columns: 31% 66%;
 }
 .book-btm {
     background-image: url(..//image/img10.jpeg);
@@ -239,6 +243,7 @@ a.bus-now {
 h1.about-headin {
     font-size: 3rem;
     font-weight:600;
+    margin-top:3rem;
 }
 h4.years {
     color: var(--primary-color);
@@ -275,9 +280,9 @@ section.travel-section {
 }
 .coastal {
     display: grid;
-    grid-template-columns:32% 32% 32%;
-    gap: 37px;
-    margin-top:3rem;
+    grid-template-columns: 32% 32% 32%;
+    margin-top: 3rem;
+    justify-content: space-between;
 }
 h4.historic {
     font-size: 19px;
@@ -336,14 +341,15 @@ ul.contact-menu {
 }
 .contact-foot {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    justify-content: center;
+    grid-template-columns: 25% 23% 23% 25%;
+    justify-content: space-around;
     padding-top: 4rem;
     margin-top: 5rem;
 }
 p.paraa {
     margin-bottom: 0;
     padding-bottom: 21px;
+    width: 100%;
 }
 a.menu-icon {
     background-color: var(--primary-color);
@@ -386,7 +392,7 @@ input#email::placeholder {
     font-size: 16px;
 }
 .foott {
-    padding-left: 8rem;
+    padding-left: 7rem;
 }
 .foots {
     padding-left: 3rem;
