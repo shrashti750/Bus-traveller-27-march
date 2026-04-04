@@ -190,6 +190,9 @@ span.star {
     font-size: 0.9rem;
     transition: 0.3s;
 }
+span.star:hover {
+    background-color: var(--primary-dark);
+}
 .tour-travel {
     text-align: center;
     margin-bottom: -29px;
