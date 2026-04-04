@@ -135,6 +135,7 @@ h1.about-headd {
 }
 span.star-num {
     padding-right: 5px;
+    font-size: 11px;
 }
 p {
     color: var(--text-light);
@@ -332,7 +333,7 @@ h4.click,h4.clicked{
 .contact {
     background-color: var(--extra-light);
     margin-top:4rem;
-    padding-bottom:2rem;
+    padding-bottom:1rem;
 }
 ul.contact-menu {
     display: block;
@@ -437,7 +438,7 @@ h4.about-cont {
     color: var(--text-dark);
 }
 span.right {
-    font-size: 0.9rem;
+    font-size: 14.4px;
     padding-top: 6rem;
     text-align: center;
     color: var(--text-light);
@@ -481,7 +482,7 @@ span.number {
     background-color: var(--extra-light);
     padding-bottom: 3px;
     padding-top: 16px;
-    border-radius:0px 10px 0px 10px;
+    border-radius:0px 16px 0px 16px;
 }
 h1.foot-head {
     font-size: 1.75rem;
