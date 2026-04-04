@@ -65,7 +65,7 @@ a.btn-book {
     padding-block: 10px;
     padding-inline: 28px;
 }
-a.btn:hover,span.star,a.btn-book:hover{
+a.btn:hover,span.star:hover,a.btn-book:hover{
     background-color:var(--primary-dark);
 }
 .bus {
@@ -190,7 +190,7 @@ span.star {
     font-size: 0.9rem;
     transition: 0.3s;
 }
-span.star:hover {
+.city:hover .star {
     background-color: var(--primary-dark);
 }
 .tour-travel {
