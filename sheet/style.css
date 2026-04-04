@@ -190,7 +190,7 @@ span.star {
     font-size: 0.9rem;
     transition: 0.3s;
 }
-.city:hover .star {
+.ind:hover .star {
     background-color: var(--primary-dark);
 }
 .tour-travel {
